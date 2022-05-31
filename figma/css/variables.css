@@ -1,679 +1,41 @@
 /**
  * Do not edit directly
- * Generated on Wed, 16 Feb 2022 11:29:21 GMT
+ * Generated on Tue, 17 May 2022 06:12:59 GMT
  */
 
 :root {
-  --typography-mobile-title-font-family: var(--ff-secondary);
-  --typography-mobile-title-font-weight: 200;
-  --typography-mobile-title-line-height: 1.2;
-  --typography-mobile-title-font-size: 48px;
-  --typography-mobile-title-letter-spacing: 0.034999999999999996rem;
-  --typography-mobile-title-paragraph-spacing: 0;
-  --typography-mobile-h1-font-family: var(--ff-secondary);
-  --typography-mobile-h1-font-weight: 200;
-  --typography-mobile-h1-line-height: 1.1;
-  --typography-mobile-h1-font-size: 40px;
-  --typography-mobile-h1-letter-spacing: 0.034999999999999996rem;
-  --typography-mobile-h1-paragraph-spacing: 0;
-  --typography-mobile-h2-font-family: var(--ff-secondary);
-  --typography-mobile-h2-font-weight: 200;
-  --typography-mobile-h2-line-height: 1.1;
-  --typography-mobile-h2-font-size: 36px;
-  --typography-mobile-h2-letter-spacing: 0.01rem;
-  --typography-mobile-h2-paragraph-spacing: 0;
-  --typography-mobile-h3-font-family: var(--ff-secondary);
-  --typography-mobile-h3-font-weight: 200;
-  --typography-mobile-h3-line-height: 1.1;
-  --typography-mobile-h3-font-size: 28px;
-  --typography-mobile-h3-letter-spacing: 0.01rem;
-  --typography-mobile-h3-paragraph-spacing: 0;
-  --typography-mobile-h4-font-family: var(--ff-secondary);
-  --typography-mobile-h4-font-weight: 200;
-  --typography-mobile-h4-line-height: 1.2;
-  --typography-mobile-h4-font-size: 20px;
-  --typography-mobile-h4-letter-spacing: 0.01rem;
-  --typography-mobile-h4-paragraph-spacing: 0;
-  --typography-mobile-h5-font-family: var(--ff-secondary);
-  --typography-mobile-h5-font-weight: 200;
-  --typography-mobile-h5-line-height: 1.3;
-  --typography-mobile-h5-font-size: 16px;
-  --typography-mobile-h5-letter-spacing: 0.01rem;
-  --typography-mobile-h5-paragraph-spacing: 0;
-  --typography-mobile-h6-font-family: var(--ff-secondary);
-  --typography-mobile-h6-font-weight: 200;
-  --typography-mobile-h6-line-height: 1.3;
-  --typography-mobile-h6-font-size: 14px;
-  --typography-mobile-h6-letter-spacing: 0.01rem;
-  --typography-mobile-h6-paragraph-spacing: 0;
-  --typography-mobile-body-font-family: var(--ff-secondary);
-  --typography-mobile-body-font-weight: 200;
-  --typography-mobile-body-line-height: 1.6;
-  --typography-mobile-body-font-size: 16px;
-  --typography-mobile-body-letter-spacing: 0.02rem;
-  --typography-mobile-body-paragraph-spacing: 0;
-  --typography-tablet-title-font-family: var(--ff-secondary);
-  --typography-tablet-title-font-weight: 200;
-  --typography-tablet-title-line-height: 1.1;
-  --typography-tablet-title-font-size: 56px;
-  --typography-tablet-title-letter-spacing: 0.034999999999999996rem;
-  --typography-tablet-title-paragraph-spacing: 0;
-  --typography-tablet-h1-font-family: var(--ff-secondary);
-  --typography-tablet-h1-font-weight: 200;
-  --typography-tablet-h1-line-height: 1.1;
-  --typography-tablet-h1-font-size: 42px;
-  --typography-tablet-h1-letter-spacing: 0.034999999999999996rem;
-  --typography-tablet-h1-paragraph-spacing: 0;
-  --typography-tablet-h2-font-family: var(--ff-secondary);
-  --typography-tablet-h2-font-weight: 200;
-  --typography-tablet-h2-line-height: 1.1;
-  --typography-tablet-h2-font-size: 38px;
-  --typography-tablet-h2-letter-spacing: 0.01rem;
-  --typography-tablet-h2-paragraph-spacing: 0;
-  --typography-tablet-h3-font-family: var(--ff-secondary);
-  --typography-tablet-h3-font-weight: 200;
-  --typography-tablet-h3-line-height: 1.1;
-  --typography-tablet-h3-font-size: 32px;
-  --typography-tablet-h3-letter-spacing: 0.01rem;
-  --typography-tablet-h3-paragraph-spacing: 0;
-  --typography-tablet-h4-font-family: var(--ff-secondary);
-  --typography-tablet-h4-font-weight: 200;
-  --typography-tablet-h4-line-height: 1.6;
-  --typography-tablet-h4-font-size: 20px;
-  --typography-tablet-h4-letter-spacing: 0.01rem;
-  --typography-tablet-h4-paragraph-spacing: 0;
-  --typography-tablet-h5-font-family: var(--ff-secondary);
-  --typography-tablet-h5-font-weight: 200;
-  --typography-tablet-h5-line-height: 1.6;
-  --typography-tablet-h5-font-size: 16px;
-  --typography-tablet-h5-letter-spacing: 0.01rem;
-  --typography-tablet-h5-paragraph-spacing: 0;
-  --typography-tablet-h6-font-family: var(--ff-secondary);
-  --typography-tablet-h6-font-weight: 200;
-  --typography-tablet-h6-line-height: 1.6;
-  --typography-tablet-h6-font-size: 14px;
-  --typography-tablet-h6-letter-spacing: 0.01rem;
-  --typography-tablet-h6-paragraph-spacing: 0;
-  --typography-tablet-body-font-family: var(--ff-secondary);
-  --typography-tablet-body-font-weight: 200;
-  --typography-tablet-body-line-height: 1.6;
-  --typography-tablet-body-font-size: 17px;
-  --typography-tablet-body-letter-spacing: 0.02rem;
-  --typography-tablet-body-paragraph-spacing: 0;
-  --typography-desktop-title-font-family: var(--ff-secondary);
-  --typography-desktop-title-font-weight: 200;
-  --typography-desktop-title-line-height: 1.5;
-  --typography-desktop-title-font-size: 64px;
-  --typography-desktop-title-letter-spacing: 0.034999999999999996rem;
-  --typography-desktop-title-paragraph-spacing: 1;
-  --typography-desktop-title-text-decoration: 0;
-  --typography-desktop-title-text-case: 0;
-  --typography-desktop-h1-font-family: var(--ff-secondary);
-  --typography-desktop-h1-font-weight: 200;
-  --typography-desktop-h1-line-height: 1.1;
-  --typography-desktop-h1-font-size: 46px;
-  --typography-desktop-h1-letter-spacing: 0.034999999999999996rem;
-  --typography-desktop-h1-paragraph-spacing: 1;
-  --typography-desktop-h2-font-family: var(--ff-secondary);
-  --typography-desktop-h2-font-weight: 200;
-  --typography-desktop-h2-line-height: 1.1;
-  --typography-desktop-h2-font-size: 40px;
-  --typography-desktop-h2-letter-spacing: 0.01rem;
-  --typography-desktop-h2-paragraph-spacing: 0;
-  --typography-desktop-h3-font-family: var(--ff-secondary);
-  --typography-desktop-h3-font-weight: 200;
-  --typography-desktop-h3-line-height: 1.1;
-  --typography-desktop-h3-font-size: 32px;
-  --typography-desktop-h3-letter-spacing: 0.01rem;
-  --typography-desktop-h3-paragraph-spacing: 0;
-  --typography-desktop-h4-font-family: var(--ff-secondary);
-  --typography-desktop-h4-font-weight: 200;
-  --typography-desktop-h4-line-height: 1.3;
-  --typography-desktop-h4-font-size: 24px;
-  --typography-desktop-h4-letter-spacing: 0.01rem;
-  --typography-desktop-h4-paragraph-spacing: 0;
-  --typography-desktop-h5-font-family: var(--ff-secondary);
-  --typography-desktop-h5-font-weight: 200;
-  --typography-desktop-h5-line-height: 1.3;
-  --typography-desktop-h5-font-size: 16px;
-  --typography-desktop-h5-letter-spacing: 0.01rem;
-  --typography-desktop-h5-paragraph-spacing: 0;
-  --typography-desktop-h6-font-family: var(--ff-secondary);
-  --typography-desktop-h6-font-weight: 200;
-  --typography-desktop-h6-line-height: 1.3;
-  --typography-desktop-h6-font-size: 14px;
-  --typography-desktop-h6-letter-spacing: 0.01rem;
-  --typography-desktop-h6-paragraph-spacing: 0;
-  --typography-desktop-body-font-family: var(--ff-secondary);
-  --typography-desktop-body-font-weight: 200;
-  --typography-desktop-body-line-height: 1.6;
-  --typography-desktop-body-font-size: 18px;
-  --typography-desktop-body-letter-spacing: 0.02rem;
-  --typography-desktop-body-paragraph-spacing: 0;
-  --typography-base-xxlarge-font-family: var(--ff-secondary);
-  --typography-base-xxlarge-font-weight: 200;
-  --typography-base-xxlarge-line-height: 1.3;
-  --typography-base-xxlarge-font-size: 20px;
-  --typography-base-xxlarge-letter-spacing: 0.02rem;
-  --typography-base-xxlarge-paragraph-spacing: 0;
-  --typography-base-xlarge-font-family: var(--ff-secondary);
-  --typography-base-xlarge-font-weight: 200;
-  --typography-base-xlarge-line-height: 1.3;
-  --typography-base-xlarge-font-size: 19px;
-  --typography-base-xlarge-letter-spacing: 0.02rem;
-  --typography-base-xlarge-paragraph-spacing: 0;
-  --typography-base-large-font-family: var(--ff-secondary);
-  --typography-base-large-font-weight: 200;
-  --typography-base-large-line-height: 1.3;
-  --typography-base-large-font-size: 17px;
-  --typography-base-large-letter-spacing: 0.02rem;
-  --typography-base-large-paragraph-spacing: 0;
-  --typography-base-medium-font-family: var(--ff-secondary);
-  --typography-base-medium-font-weight: 200;
-  --typography-base-medium-line-height: 1.6;
-  --typography-base-medium-font-size: 16px;
-  --typography-base-medium-letter-spacing: 0.02rem;
-  --typography-base-medium-paragraph-spacing: 0;
-  --typography-base-medium-text-decoration: None;
-  --typography-base-medium-text-case: None;
-  --typography-base-small-font-family: var(--ff-secondary);
-  --typography-base-small-font-weight: 200;
-  --typography-base-small-line-height: 1.6;
-  --typography-base-small-font-size: 14px;
-  --typography-base-small-letter-spacing: 0.02rem;
-  --typography-base-small-paragraph-spacing: 0;
-  --typography-base-xsmall-font-family: var(--ff-secondary);
-  --typography-base-xsmall-font-weight: 200;
-  --typography-base-xsmall-line-height: 1.6;
-  --typography-base-xsmall-font-size: 13px;
-  --typography-base-xsmall-letter-spacing: 0.02rem;
-  --typography-base-xsmall-paragraph-spacing: 0;
-  --typography-base-xxsmall-font-family: var(--ff-secondary);
-  --typography-base-xxsmall-font-weight: 200;
-  --typography-base-xxsmall-line-height: 1.6;
-  --typography-base-xxsmall-font-size: 12px;
-  --typography-base-xxsmall-letter-spacing: 0.02rem;
-  --typography-base-xxsmall-paragraph-spacing: 0;
-  --typography-base-xxxsmall-font-family: var(--ff-secondary);
-  --typography-base-xxxsmall-font-weight: 200;
-  --typography-base-xxxsmall-line-height: 1.6;
-  --typography-base-xxxsmall-font-size: 10px;
-  --typography-base-xxxsmall-letter-spacing: 0.02rem;
-  --typography-base-xxxsmall-paragraph-spacing: 0;
-  --typography-base-medium-bold-font-family: var(--ff-secondary);
-  --typography-base-medium-bold-font-weight: 400;
-  --typography-base-medium-bold-line-height: 1.6;
-  --typography-base-medium-bold-font-size: 16px;
-  --typography-base-medium-bold-letter-spacing: 0.02rem;
-  --typography-base-medium-bold-paragraph-spacing: 0;
-  --typography-base-medium-bold-text-decoration: None;
-  --typography-base-medium-bold-text-case: None;
-  --typography-button-primary-large-font-family: var(--ff-secondary);
-  --typography-button-primary-large-font-weight: 400;
-  --typography-button-primary-large-line-height: 1.4000000000000001;
-  --typography-button-primary-large-font-size: 16px;
-  --typography-button-primary-large-letter-spacing: 0.02rem;
-  --typography-button-primary-large-paragraph-spacing: 0;
-  --typography-button-primary-medium-font-family: var(--ff-secondary);
-  --typography-button-primary-medium-font-weight: 400;
-  --typography-button-primary-medium-line-height: 1.4000000000000001;
-  --typography-button-primary-medium-font-size: 14px;
-  --typography-button-primary-medium-letter-spacing: 0.02rem;
-  --typography-button-primary-medium-paragraph-spacing: 0;
-  --typography-button-primary-small-font-family: var(--ff-secondary);
-  --typography-button-primary-small-font-weight: 400;
-  --typography-button-primary-small-line-height: 1.4000000000000001;
-  --typography-button-primary-small-font-size: 12px;
-  --typography-button-primary-small-letter-spacing: 0.02rem;
-  --typography-button-primary-small-paragraph-spacing: 0;
-  --typography-button-secondary-large-font-family: var(--ff-secondary);
-  --typography-button-secondary-large-font-weight: 200;
-  --typography-button-secondary-large-line-height: 1.4000000000000001;
-  --typography-button-secondary-large-font-size: 16px;
-  --typography-button-secondary-large-letter-spacing: 0.02rem;
-  --typography-button-secondary-large-paragraph-spacing: 0;
-  --typography-button-secondary-medium-font-family: var(--ff-secondary);
-  --typography-button-secondary-medium-font-weight: 200;
-  --typography-button-secondary-medium-line-height: 1.4000000000000001;
-  --typography-button-secondary-medium-font-size: 14px;
-  --typography-button-secondary-medium-letter-spacing: 0.02rem;
-  --typography-button-secondary-medium-paragraph-spacing: 0;
-  --typography-button-secondary-small-font-family: var(--ff-secondary);
-  --typography-button-secondary-small-font-weight: 200;
-  --typography-button-secondary-small-line-height: 1.4000000000000001;
-  --typography-button-secondary-small-font-size: 12px;
-  --typography-button-secondary-small-letter-spacing: 0.02rem;
-  --typography-button-secondary-small-paragraph-spacing: 0;
-  --typography-toast-mobile-header-font-family: var(--ff-secondary);
-  --typography-toast-mobile-header-font-weight: 400;
-  --typography-toast-mobile-header-line-height: 1.5;
-  --typography-toast-mobile-header-font-size: 16px;
-  --typography-toast-mobile-header-letter-spacing: 0.02rem;
-  --typography-toast-mobile-header-paragraph-spacing: 0;
-  --typography-toast-mobile-text-font-family: var(--ff-secondary);
-  --typography-toast-mobile-text-font-weight: 200;
-  --typography-toast-mobile-text-line-height: 1.4000000000000001;
-  --typography-toast-mobile-text-font-size: 16px;
-  --typography-toast-mobile-text-letter-spacing: 0.025rem;
-  --typography-toast-mobile-text-paragraph-spacing: 0;
-  --typography-toast-desktop-text-font-family: var(--ff-secondary);
-  --typography-toast-desktop-text-font-weight: 200;
-  --typography-toast-desktop-text-line-height: 1.4000000000000001;
-  --typography-toast-desktop-text-font-size: 18px;
-  --typography-toast-desktop-text-letter-spacing: 0.025rem;
-  --typography-toast-desktop-text-paragraph-spacing: 0;
-  --typography-toast-desktop-header-font-family: var(--ff-secondary);
-  --typography-toast-desktop-header-font-weight: 400;
-  --typography-toast-desktop-header-line-height: 1.4000000000000001;
-  --typography-toast-desktop-header-font-size: 18px;
-  --typography-toast-desktop-header-letter-spacing: 0.025rem;
-  --typography-toast-desktop-header-paragraph-spacing: 0;
-  --typography-toast-tablet-text-font-family: var(--ff-secondary);
-  --typography-toast-tablet-text-font-weight: 200;
-  --typography-toast-tablet-text-line-height: 1.5;
-  --typography-toast-tablet-text-font-size: 17px;
-  --typography-toast-tablet-text-letter-spacing: 0.025rem;
-  --typography-toast-tablet-text-paragraph-spacing: 0;
-  --typography-section-small-title-font-family: var(--ff-secondary);
-  --typography-section-small-title-font-weight: 400;
-  --typography-section-small-title-line-height: 1.2;
-  --typography-section-small-title-font-size: 17px;
-  --typography-section-small-title-letter-spacing: 0.02rem;
-  --typography-section-small-title-paragraph-spacing: 0;
-  --typography-section-small-title-text-decoration: 0;
-  --typography-section-small-title-text-case: 0;
-  --typography-section-small-body-font-family: var(--ff-secondary);
-  --typography-section-small-body-font-weight: 200;
-  --typography-section-small-body-line-height: 1.5;
-  --typography-section-small-body-font-size: 16px;
-  --typography-section-small-body-letter-spacing: 0.02rem;
-  --typography-section-small-body-paragraph-spacing: 0;
-  --typography-section-small-body-text-decoration: 0;
-  --typography-section-small-body-text-case: 0;
-  --typography-section-large-body-font-family: var(--ff-secondary);
-  --typography-section-large-body-font-weight: 200;
-  --typography-section-large-body-line-height: 1.5;
-  --typography-section-large-body-font-size: 17px;
-  --typography-section-large-body-letter-spacing: 0.02rem;
-  --typography-section-large-body-paragraph-spacing: 0;
-  --typography-section-large-body-text-decoration: 0;
-  --typography-section-large-body-text-case: 0;
-  --typography-section-large-title-font-family: var(--ff-secondary);
-  --typography-section-large-title-font-weight: 400;
-  --typography-section-large-title-line-height: 1.2;
-  --typography-section-large-title-font-size: 17px;
-  --typography-section-large-title-letter-spacing: 0.02rem;
-  --typography-section-large-title-paragraph-spacing: 0;
-  --typography-section-large-title-text-decoration: 0;
-  --typography-section-large-title-text-case: 0;
-  --typography-input-small-label-font-family: var(--ff-secondary);
-  --typography-input-small-label-font-weight: 200;
-  --typography-input-small-label-line-height: 1.4000000000000001;
-  --typography-input-small-label-font-size: 14px;
-  --typography-input-small-label-letter-spacing: 0.025rem;
-  --typography-input-small-label-paragraph-spacing: 0;
-  --typography-input-small-label-text-decoration: 0;
-  --typography-input-small-label-text-case: 0;
-  --typography-input-small-fix-font-family: var(--ff-secondary);
-  --typography-input-small-fix-font-weight: 200;
-  --typography-input-small-fix-line-height: 1.4000000000000001;
-  --typography-input-small-fix-font-size: 12px;
-  --typography-input-small-fix-letter-spacing: 0.025rem;
-  --typography-input-small-fix-paragraph-spacing: 0;
-  --typography-input-small-fix-text-decoration: 0;
-  --typography-input-small-fix-text-case: 0;
-  --typography-input-small-body-font-family: var(--ff-secondary);
-  --typography-input-small-body-font-weight: 200;
-  --typography-input-small-body-line-height: 1.4000000000000001;
-  --typography-input-small-body-font-size: 16px;
-  --typography-input-small-body-letter-spacing: 0.025rem;
-  --typography-input-small-body-paragraph-spacing: 0;
-  --typography-input-small-body-text-decoration: 0;
-  --typography-input-small-body-text-case: 0;
-  --typography-input-small-descriptive-font-family: var(--ff-secondary);
-  --typography-input-small-descriptive-font-weight: 200;
-  --typography-input-small-descriptive-line-height: 1.4000000000000001;
-  --typography-input-small-descriptive-font-size: 12px;
-  --typography-input-small-descriptive-letter-spacing: 0.025rem;
-  --typography-input-small-descriptive-paragraph-spacing: 0;
-  --typography-input-small-descriptive-text-decoration: 0;
-  --typography-input-small-descriptive-text-case: 0;
-  --typography-input-medium-fix-font-family: var(--ff-secondary);
-  --typography-input-medium-fix-font-weight: 200;
-  --typography-input-medium-fix-line-height: 1.4000000000000001;
-  --typography-input-medium-fix-font-size: 14px;
-  --typography-input-medium-fix-letter-spacing: 0.025rem;
-  --typography-input-medium-fix-paragraph-spacing: 0;
-  --typography-input-medium-fix-text-decoration: 0;
-  --typography-input-medium-fix-text-case: 0;
-  --typography-input-medium-body-font-family: var(--ff-secondary);
-  --typography-input-medium-body-font-weight: 200;
-  --typography-input-medium-body-line-height: 1.4000000000000001;
-  --typography-input-medium-body-font-size: 16px;
-  --typography-input-medium-body-letter-spacing: 0.025rem;
-  --typography-input-medium-body-paragraph-spacing: 0;
-  --typography-input-medium-body-text-decoration: 0;
-  --typography-input-medium-body-text-case: 0;
-  --typography-input-medium-label-font-family: var(--ff-secondary);
-  --typography-input-medium-label-font-weight: 200;
-  --typography-input-medium-label-line-height: 1.4000000000000001;
-  --typography-input-medium-label-font-size: 14px;
-  --typography-input-medium-label-letter-spacing: 0.025rem;
-  --typography-input-medium-label-paragraph-spacing: 0;
-  --typography-input-medium-label-text-decoration: 0;
-  --typography-input-medium-label-text-case: 0;
-  --typography-input-medium-descriptive-font-family: var(--ff-secondary);
-  --typography-input-medium-descriptive-font-weight: 200;
-  --typography-input-medium-descriptive-line-height: 1.4000000000000001;
-  --typography-input-medium-descriptive-font-size: 12px;
-  --typography-input-medium-descriptive-letter-spacing: 0.025rem;
-  --typography-input-medium-descriptive-paragraph-spacing: 0;
-  --typography-input-medium-descriptive-text-decoration: 0;
-  --typography-input-medium-descriptive-text-case: 0;
-  --typography-input-large-fix-font-family: var(--ff-secondary);
-  --typography-input-large-fix-font-weight: 200;
-  --typography-input-large-fix-line-height: 1.4000000000000001;
-  --typography-input-large-fix-font-size: 14px;
-  --typography-input-large-fix-letter-spacing: 0.025rem;
-  --typography-input-large-fix-paragraph-spacing: 0;
-  --typography-input-large-fix-text-decoration: 0;
-  --typography-input-large-fix-text-case: 0;
-  --typography-input-large-body-font-family: var(--ff-secondary);
-  --typography-input-large-body-font-weight: 200;
-  --typography-input-large-body-line-height: 1.4000000000000001;
-  --typography-input-large-body-font-size: 18px;
-  --typography-input-large-body-letter-spacing: 0.025rem;
-  --typography-input-large-body-paragraph-spacing: 0;
-  --typography-input-large-body-text-decoration: 0;
-  --typography-input-large-body-text-case: 0;
-  --typography-input-large-label-font-family: var(--ff-secondary);
-  --typography-input-large-label-font-weight: 200;
-  --typography-input-large-label-line-height: 1.4000000000000001;
-  --typography-input-large-label-font-size: 14px;
-  --typography-input-large-label-letter-spacing: 0.025rem;
-  --typography-input-large-label-paragraph-spacing: 0;
-  --typography-input-large-label-text-decoration: 0;
-  --typography-input-large-label-text-case: 0;
-  --typography-input-large-descriptive-font-family: var(--ff-secondary);
-  --typography-input-large-descriptive-font-weight: 200;
-  --typography-input-large-descriptive-line-height: 1.4000000000000001;
-  --typography-input-large-descriptive-font-size: 14px;
-  --typography-input-large-descriptive-letter-spacing: 0.025rem;
-  --typography-input-large-descriptive-paragraph-spacing: 0;
-  --typography-input-large-descriptive-text-decoration: 0;
-  --typography-input-large-descriptive-text-case: 0;
-  --typography-dropdown-small-label-font-family: var(--ff-secondary);
-  --typography-dropdown-small-label-font-weight: 200;
-  --typography-dropdown-small-label-line-height: 1.4000000000000001;
-  --typography-dropdown-small-label-font-size: 12px;
-  --typography-dropdown-small-label-letter-spacing: 0.025rem;
-  --typography-dropdown-small-label-paragraph-spacing: 0;
-  --typography-dropdown-small-label-text-decoration: 0;
-  --typography-dropdown-small-label-text-case: 0;
-  --typography-dropdown-small-description-font-family: var(--ff-secondary);
-  --typography-dropdown-small-description-font-weight: 200;
-  --typography-dropdown-small-description-line-height: 1.4000000000000001;
-  --typography-dropdown-small-description-font-size: 10px;
-  --typography-dropdown-small-description-letter-spacing: 0.025rem;
-  --typography-dropdown-small-description-paragraph-spacing: 0;
-  --typography-dropdown-small-description-text-decoration: 0;
-  --typography-dropdown-small-description-text-case: 0;
-  --typography-dropdown-small-fix-font-family: var(--ff-secondary);
-  --typography-dropdown-small-fix-font-weight: 200;
-  --typography-dropdown-small-fix-line-height: 1.4000000000000001;
-  --typography-dropdown-small-fix-font-size: 12px;
-  --typography-dropdown-small-fix-letter-spacing: 0.025rem;
-  --typography-dropdown-small-fix-paragraph-spacing: 0;
-  --typography-dropdown-small-fix-text-decoration: 0;
-  --typography-dropdown-small-fix-text-case: 0;
-  --typography-dropdown-small-body-font-family: var(--ff-secondary);
-  --typography-dropdown-small-body-font-weight: 200;
-  --typography-dropdown-small-body-line-height: 1.4000000000000001;
-  --typography-dropdown-small-body-font-size: 14px;
-  --typography-dropdown-small-body-letter-spacing: 0.025rem;
-  --typography-dropdown-small-body-paragraph-spacing: 0;
-  --typography-dropdown-small-body-text-decoration: 0;
-  --typography-dropdown-small-body-text-case: 0;
-  --typography-dropdown-small-body-input-font-family: var(--ff-secondary);
-  --typography-dropdown-small-body-input-font-weight: 400;
-  --typography-dropdown-small-body-input-line-height: 1.4000000000000001;
-  --typography-dropdown-small-body-input-font-size: 16px;
-  --typography-dropdown-small-body-input-letter-spacing: 0.025rem;
-  --typography-dropdown-small-body-input-paragraph-spacing: 0;
-  --typography-dropdown-small-body-input-text-decoration: 0;
-  --typography-dropdown-small-body-input-text-case: 0;
-  --typography-dropdown-medium-label-font-family: var(--ff-secondary);
-  --typography-dropdown-medium-label-font-weight: 200;
-  --typography-dropdown-medium-label-line-height: 1.4000000000000001;
-  --typography-dropdown-medium-label-font-size: 14px;
-  --typography-dropdown-medium-label-letter-spacing: 0.025rem;
-  --typography-dropdown-medium-label-paragraph-spacing: 0;
-  --typography-dropdown-medium-label-text-decoration: 0;
-  --typography-dropdown-medium-label-text-case: 0;
-  --typography-dropdown-medium-description-font-family: var(--ff-secondary);
-  --typography-dropdown-medium-description-font-weight: 200;
-  --typography-dropdown-medium-description-line-height: 1.4000000000000001;
-  --typography-dropdown-medium-description-font-size: 12px;
-  --typography-dropdown-medium-description-letter-spacing: 0.025rem;
-  --typography-dropdown-medium-description-paragraph-spacing: 0;
-  --typography-dropdown-medium-description-text-decoration: 0;
-  --typography-dropdown-medium-description-text-case: 0;
-  --typography-dropdown-medium-fix-font-family: var(--ff-secondary);
-  --typography-dropdown-medium-fix-font-weight: 200;
-  --typography-dropdown-medium-fix-line-height: 1.4000000000000001;
-  --typography-dropdown-medium-fix-font-size: 12px;
-  --typography-dropdown-medium-fix-letter-spacing: 0.025rem;
-  --typography-dropdown-medium-fix-paragraph-spacing: 0;
-  --typography-dropdown-medium-fix-text-decoration: 0;
-  --typography-dropdown-medium-fix-text-case: 0;
-  --typography-dropdown-medium-body-font-family: var(--ff-secondary);
-  --typography-dropdown-medium-body-font-weight: 200;
-  --typography-dropdown-medium-body-line-height: 1.4000000000000001;
-  --typography-dropdown-medium-body-font-size: 16px;
-  --typography-dropdown-medium-body-letter-spacing: 0.025rem;
-  --typography-dropdown-medium-body-paragraph-spacing: 0;
-  --typography-dropdown-medium-body-text-decoration: 0;
-  --typography-dropdown-medium-body-text-case: 0;
-  --typography-dropdown-large-label-font-family: var(--ff-secondary);
-  --typography-dropdown-large-label-font-weight: 200;
-  --typography-dropdown-large-label-line-height: 1.4000000000000001;
-  --typography-dropdown-large-label-font-size: 14px;
-  --typography-dropdown-large-label-letter-spacing: 0.025rem;
-  --typography-dropdown-large-label-paragraph-spacing: 0;
-  --typography-dropdown-large-label-text-decoration: 0;
-  --typography-dropdown-large-label-text-case: 0;
-  --typography-dropdown-large-description-font-family: var(--ff-secondary);
-  --typography-dropdown-large-description-font-weight: 200;
-  --typography-dropdown-large-description-line-height: 1.4000000000000001;
-  --typography-dropdown-large-description-font-size: 14px;
-  --typography-dropdown-large-description-letter-spacing: 0.025rem;
-  --typography-dropdown-large-description-paragraph-spacing: 0;
-  --typography-dropdown-large-description-text-decoration: 0;
-  --typography-dropdown-large-description-text-case: 0;
-  --typography-dropdown-large-fix-font-family: var(--ff-secondary);
-  --typography-dropdown-large-fix-font-weight: 200;
-  --typography-dropdown-large-fix-line-height: 1.4000000000000001;
-  --typography-dropdown-large-fix-font-size: 12px;
-  --typography-dropdown-large-fix-letter-spacing: 0.025rem;
-  --typography-dropdown-large-fix-paragraph-spacing: 0;
-  --typography-dropdown-large-fix-text-decoration: 0;
-  --typography-dropdown-large-fix-text-case: 0;
-  --typography-dropdown-large-body-font-family: var(--ff-secondary);
-  --typography-dropdown-large-body-font-weight: 200;
-  --typography-dropdown-large-body-line-height: 1.4000000000000001;
-  --typography-dropdown-large-body-font-size: 18px;
-  --typography-dropdown-large-body-letter-spacing: 0.025rem;
-  --typography-dropdown-large-body-paragraph-spacing: 0;
-  --typography-dropdown-large-body-text-decoration: 0;
-  --typography-dropdown-large-body-text-case: 0;
-  --typography-checkbox-small-body-font-family: var(--ff-secondary);
-  --typography-checkbox-small-body-font-weight: 200;
-  --typography-checkbox-small-body-line-height: 1.4000000000000001;
-  --typography-checkbox-small-body-font-size: 16px;
-  --typography-checkbox-small-body-letter-spacing: 0.025rem;
-  --typography-checkbox-small-body-paragraph-spacing: 0;
-  --typography-checkbox-small-body-text-decoration: 0;
-  --typography-checkbox-small-body-text-case: 0;
-  --typography-toggle-small-body-font-family: var(--ff-secondary);
-  --typography-toggle-small-body-font-weight: 200;
-  --typography-toggle-small-body-line-height: 1.4000000000000001;
-  --typography-toggle-small-body-font-size: 14px;
-  --typography-toggle-small-body-letter-spacing: 0.025rem;
-  --typography-toggle-small-body-paragraph-spacing: 0;
-  --typography-toggle-small-body-text-decoration: 0;
-  --typography-toggle-small-body-text-case: 0;
-  --typography-dialog-large-title-font-family: var(--ff-secondary);
-  --typography-dialog-large-title-font-weight: 400;
-  --typography-dialog-large-title-line-height: 1.4000000000000001;
-  --typography-dialog-large-title-font-size: 20px;
-  --typography-dialog-large-title-letter-spacing: 0.025rem;
-  --typography-dialog-large-title-paragraph-spacing: 0;
-  --typography-dialog-large-title-text-decoration: 0;
-  --typography-dialog-large-title-text-case: 0;
-  --typography-dialog-large-body-font-family: var(--ff-secondary);
-  --typography-dialog-large-body-font-weight: 400;
-  --typography-dialog-large-body-line-height: 1.4000000000000001;
-  --typography-dialog-large-body-font-size: 16px;
-  --typography-dialog-large-body-letter-spacing: 0.025rem;
-  --typography-dialog-large-body-paragraph-spacing: 0;
-  --typography-dialog-large-body-text-decoration: 0;
-  --typography-dialog-large-body-text-case: 0;
-  --typography-tag-text-font-family: var(--ff-secondary);
-  --typography-tag-text-font-weight: 200;
-  --typography-tag-text-line-height: 1.1;
-  --typography-tag-text-font-size: 12px;
-  --typography-tag-text-letter-spacing: 0.025rem;
-  --typography-tag-text-paragraph-spacing: 0;
-  --typography-tag-text-text-decoration: 0;
-  --typography-tag-text-text-case: 0;
-  --typography-tag-text-medium-font-family: var(--ff-secondary);
-  --typography-tag-text-medium-font-weight: 200;
-  --typography-tag-text-medium-line-height: 1.1;
-  --typography-tag-text-medium-font-size: 14px;
-  --typography-tag-text-medium-letter-spacing: 0.025rem;
-  --typography-tag-text-medium-paragraph-spacing: 0;
-  --typography-tag-text-medium-text-decoration: 0;
-  --typography-tag-text-medium-text-case: 0;
-  --typography-tag-text-large-font-family: var(--ff-secondary);
-  --typography-tag-text-large-font-weight: 200;
-  --typography-tag-text-large-line-height: 1.1;
-  --typography-tag-text-large-font-size: 16px;
-  --typography-tag-text-large-letter-spacing: 0.025rem;
-  --typography-tag-text-large-paragraph-spacing: 0;
-  --typography-tag-text-large-text-decoration: 0;
-  --typography-tag-text-large-text-case: 0;
-  --font-family-primary: var(--ff-secondary);
-  --font-family-secondary: var(--ff-secondary);
-  --font-size-mobile-title: 48px;
-  --font-size-mobile-h1: 40px;
-  --font-size-mobile-h2: 36px;
-  --font-size-mobile-h3: 28px;
-  --font-size-mobile-h4: 20px;
-  --font-size-mobile-h5: 16px;
-  --font-size-mobile-h6: 14px;
-  --font-size-mobile-body: 16px;
-  --font-size-tablet-title: 56px;
-  --font-size-tablet-h1: 42px;
-  --font-size-tablet-h2: 38px;
-  --font-size-tablet-h3: 32px;
-  --font-size-tablet-h4: 20px;
-  --font-size-tablet-h5: 16px;
-  --font-size-tablet-h6: 14px;
-  --font-size-tablet-body: 17px;
-  --font-size-desktop-title: 64px;
-  --font-size-desktop-h1: 46px;
-  --font-size-desktop-h2: 40px;
-  --font-size-desktop-h3: 32px;
-  --font-size-desktop-h4: 24px;
-  --font-size-desktop-h5: 16px;
-  --font-size-desktop-h6: 14px;
-  --font-size-desktop-body: 18px;
-  --font-size-base-xxxsmall: 10px;
-  --font-size-base-xxsmall: 12px;
-  --font-size-base-xsmall: 13px;
-  --font-size-base-small: 14px;
-  --font-size-base-medium: 16px;
-  --font-size-base-large: 17px;
-  --font-size-base-xlarge: 19px;
-  --font-size-base-xxlarge: 20px;
-  --letter-spacing-xxs: -0.01rem;
-  --letter-spacing-xs: 0.01rem;
-  --letter-spacing-sm: 0.02rem;
-  --letter-spacing-md: 0.025rem;
-  --letter-spacing-lg: 0.03rem;
-  --letter-spacing-xl: 0.034999999999999996rem;
-  --line-height-0: 0.2;
-  --line-height-1: 1.1;
-  --line-height-2: 1.2;
-  --line-height-3: 1.3;
-  --line-height-4: 1.4000000000000001;
-  --line-height-5: 1.5;
-  --line-height-6: 1.6;
-  --line-height-7: 1.7;
-  --line-height-8: 1.8;
-  --line-height-9: 1.9000000000000001;
-  --font-weight-regular: 200;
-  --font-weight-medium: 400;
-  --font-weight-bold: bold;
-  --spacing-mobile-0: 0px;
-  --spacing-mobile-1: 2px * 1;
-  --spacing-mobile-2: 2px * 2;
-  --spacing-mobile-3: 2px * 3;
-  --spacing-mobile-4: 2px * 4;
-  --spacing-mobile-5: 2px * 5;
-  --spacing-mobile-6: 2px * 6;
-  --spacing-mobile-7: 2px * 8;
-  --spacing-mobile-8: 2px * 12;
-  --spacing-mobile-9: 2px * 20;
-  --spacing-mobile-base: 2px;
-  --spacing-mobile-auto: auto;
-  --spacing-tablet-0: 0px;
-  --spacing-tablet-1: 4px * 1;
-  --spacing-tablet-2: 4px * 2;
-  --spacing-tablet-3: 4px * 3;
-  --spacing-tablet-4: 4px * 4;
-  --spacing-tablet-5: 4px * 5;
-  --spacing-tablet-6: 4px * 6;
-  --spacing-tablet-7: 4px * 8;
-  --spacing-tablet-8: 4px * 12;
-  --spacing-tablet-9: 4px * 20;
-  --spacing-tablet-base: 4px;
-  --spacing-tablet-auto: auto;
-  --spacing-desktop-0: 0px;
-  --spacing-desktop-1: 8px * 1;
-  --spacing-desktop-2: 8px * 2;
-  --spacing-desktop-3: 8px * 3;
-  --spacing-desktop-4: 8px * 4;
-  --spacing-desktop-5: 8px * 5;
-  --spacing-desktop-6: 8px * 6;
-  --spacing-desktop-7: 8px * 10;
-  --spacing-desktop-8: 8px * 12;
-  --spacing-desktop-9: 8px * 20;
-  --spacing-desktop-base: 8px;
-  --spacing-desktop-auto: auto;
-  --spacing-button-large-x: 32px;
-  --spacing-button-large-y: 14px;
-  --spacing-button-large-gab: 8px;
-  --spacing-button-small-x: 24px;
-  --spacing-button-small-y: 12px;
-  --spacing-button-small-gab: 6px;
-  --spacing-emneside-desktop-header-top: 328px;
-  --spacing-emneside-mobil-header-top: 200px;
-  --size-breakpoint-mobile: 414px;
-  --size-breakpoint-mobile-portrait: 375px;
-  --size-breakpoint-tablet-portait: 768px;
-  --size-breakpoint-tablet: 990px;
-  --size-breakpoint-desktop-small: 1280px;
-  --size-breakpoint-desktop: 1440px;
-  --size-breakpoint-widescreen: 1880px;
-  --size-icon-xxs: 8px;
-  --size-icon-xs: 16px;
-  --size-icon-sm: 24px;
-  --size-icon-md: 32px;
-  --size-icon-lg: 40px;
-  --size-icon-xl: 60px;
-  --size-icon-xxl: 80px;
-  --size-icon-xxxl: 128px;
+  --color-section-white: #ffffff;
+  --color-section-light: #edf5fb;
+  --color-section-dark: #132d4f;
+  --color-section-aurora: #ffffff;
+  --color-button-background-primary-base: #dd0d0b;
+  --color-button-background-primary-hover: #e54948;
+  --color-button-background-primary-pressed: #b90e0d;
+  --color-button-background-primary-red-hover: #e54948;
+  --color-button-background-primary-red-pressed: #b90e0d;
+  --color-button-background-secondary-base: #fcede8;
+  --color-button-background-secondary-hover: #ffc6c6;
+  --color-button-background-secondary-pressed: #f99591;
+  --color-button-background-secondary-red-base: #fcede8;
+  --color-button-background-secondary-red-hover: #ffc6c6;
+  --color-button-background-secondary-red-pressed: #f99591;
+  --color-button-background-inverted-white-base: #ffffff;
+  --color-button-text-primary: #ffffff;
+  --color-button-text-secondary: #dd0d0b;
+  --color-button-text-inverted: #132d4f;
+  --color-button-text-blue: #132d4f;
+  --color-button-text-red: #dd0d0b;
+  --color-button-text-white: #ffffff;
+  --color-button-text-link: #0052cc;
+  --color-link-primary-base: #dd0d0b;
+  --color-link-primary-hover: #e54948;
+  --color-link-primary-pressed: #b90e0d;
+  --color-link-secondary-base: #0052cc;
+  --color-link-secondary-hover: #132d4f;
+  --color-link-secondary-pressed: #77b7e3;
+  --color-link-inverted-base: #ffffff;
+  --color-link-inverted-hover: #b9d3e9;
+  --color-link-inverted-pressed: #ffffff;
   --color-base-blue-100: #edf5fb;
   --color-base-blue-200: #cee0f6;
   --color-base-blue-300: #b9d3e9;
@@ -686,7 +48,7 @@
   --color-base-grey-300: #9e9ea6;
   --color-base-grey-400: #6e6d79;
   --color-base-grey-500: #888888;
-  --color-base-red-100: #fce8eb;
+  --color-base-red-100: #fcede8;
   --color-base-red-200: #ffc6c6;
   --color-base-red-300: #f99591;
   --color-base-red-400: #e54948;
@@ -700,6 +62,7 @@
   --color-base-purple-100: #eae6ff;
   --color-base-purple-200: #403294;
   --color-base-white-100: #ffffff;
+  --color-base-white-200: #ffffff;
   --color-base-orange-100: #fff3e9;
   --color-base-orange-200: #ee7d52;
   --color-base-orange-300: #cc3e08;
@@ -707,7 +70,7 @@
   --color-signal-background-info: #edf5fb;
   --color-signal-background-valid: #e8f4f4;
   --color-signal-background-yellow: #fff7e1;
-  --color-signal-background-error: #fce8eb;
+  --color-signal-background-error: #fcede8;
   --color-signal-background-question: #eae6ff;
   --color-signal-background-neutral: #f9f9f9;
   --color-signal-icon-signal-info: #132d4f;
@@ -720,26 +83,11 @@
   --color-background-blue: #77b7e3;
   --color-background-blue-dark: #132d4f;
   --color-background-white: #ffffff;
+  --color-background-transparent-white: #ffffff;
   --color-text-header-primary: #132d4f;
   --color-text-header-inverted: #ffffff;
   --color-text-body-primary: #4e617b;
   --color-text-body-inverted: #ffffff;
-  --color-button-background-primary-red-base: #dd0d0b;
-  --color-button-background-primary-red-hover: #e54948;
-  --color-button-background-primary-red-pressed: #b90e0d;
-  --color-button-background-primary-blue-base: #cee0f6;
-  --color-button-background-primary-blue-hover: #ffffff;
-  --color-button-background-primary-blue-pressed: #b9d3e9;
-  --color-button-background-secondary-blue-base: #ffffff;
-  --color-button-background-secondary-blue-hover: #cee0f6;
-  --color-button-background-secondary-blue-pressed: #b9d3e9;
-  --color-button-background-secondary-red-base: #fce8eb;
-  --color-button-background-secondary-red-hover: #ffc6c6;
-  --color-button-background-secondary-red-pressed: #f99591;
-  --color-button-text-blue: #132d4f;
-  --color-button-text-red: #dd0d0b;
-  --color-button-text-white: #ffffff;
-  --color-button-text-link: #0052cc;
   --color-input-background-white: #ffffff;
   --color-input-background-filled: #edf5fb;
   --color-input-background-invalid: #fff3e9;
@@ -785,7 +133,7 @@
   --color-toggle-fill-blue: #132d4f;
   --color-toggle-fill-white: #ffffff;
   --color-toggle-fill-blue-light: #77b7e3;
-  --color-toggle-fill-red-light: #fce8eb;
+  --color-toggle-fill-red-light: #fcede8;
   --color-toggle-fill-blue-light-off: #cee0f6;
   --color-toggle-text-blue: #132d4f;
   --color-checkbox-fill-white: #ffffff;
@@ -808,78 +156,867 @@
   --color-tag-background-green: #e8f4f4;
   --color-avatar-bakcground-dark-blue: #132d4f;
   --color-avatar-bakcground-light-blue: #cee0f6;
-  --color-avatar-bakcground-red: #fce8eb;
+  --color-avatar-bakcground-red: #fcede8;
   --color-avatar-bakcground-grey: #f0f2f3;
   --color-avatar-fill-light-blue: #edf5fb;
   --color-avatar-fill-dark-blue: #132d4f;
   --color-avatar-fill-red: #dd0d0b;
   --color-avatar-fill-grey: #9e9ea6;
-  --border-sm: 1px;
-  --border-md: 2px;
-  --border-lg: 4px;
+  --color-graph-main-blue: #77b7e3;
+  --color-graph-main-green: #479390;
+  --color-graph-main-red: #a81d57;
+  --color-graph-main-yellow: #f9c64e;
+  --color-graph-main-purple: #784b97;
+  --color-graph-main-gold: #a3a599;
+  --color-graph-light-green: #55aea5;
+  --color-graph-light-red: #c7638d;
+  --color-graph-light-yellow: #f2d899;
+  --color-graph-light-purple: #b391cb;
+  --color-graph-light-gold: #bfbfbd;
+  --spacing-container-desktop-padding-x-small: 40px;
+  --spacing-container-desktop-padding-x-large: 80px;
+  --spacing-container-desktop-padding-x-xlarge: 116px;
+  --spacing-container-desktop-padding-x-xxlarge: 220px;
+  --spacing-container-desktop-padding-x-xxxlarge: 280px;
+  --spacing-container-desktop-padding-x-xxxxlarge: 400px;
+  --spacing-container-desktop-padding-x-none: 0px;
+  --spacing-container-desktop-padding-y-small: 40px;
+  --spacing-container-desktop-padding-y-large: 80px;
+  --spacing-container-desktop-padding-y-none: 0px;
+  --spacing-container-desktop-gap-y-small: 16px;
+  --spacing-container-desktop-gap-y-medium: 24px;
+  --spacing-container-desktop-gap-y-large: 40px;
+  --spacing-container-mobile-padding-x-small: 16px;
+  --spacing-container-mobile-padding-x-large: 20px;
+  --spacing-container-mobile-padding-x-xlarge: 20px;
+  --spacing-container-mobile-padding-x-xxxlarge: 20px;
+  --spacing-container-mobile-padding-x-xxxxlarge: 200px;
+  --spacing-container-mobile-padding-x-none: 0px;
+  --spacing-container-mobile-padding-y-small: 20px;
+  --spacing-container-mobile-padding-y-large: 40px;
+  --spacing-container-mobile-padding-y-none: 0px;
+  --spacing-container-mobile-gap-y-small: 12px;
+  --spacing-container-mobile-gap-y-medium: 16px;
+  --spacing-container-mobile-gap-y-large: 24px;
+  --spacing-grid-desktop-gap-small: 24px;
+  --spacing-grid-desktop-gap-medium: 32px;
+  --spacing-grid-desktop-gap-large: 40px;
+  --spacing-grid-mobile-gap-small: 20px;
+  --spacing-grid-mobile-gap-medium: 32px;
+  --spacing-grid-mobile-gap-large: 48px;
+  --spacing-card-item-gap-y-small: 8px;
+  --spacing-card-item-gap-y-medium: 12px;
+  --spacing-card-item-gap-y-large: 16px;
+  --spacing-card-row: 24px;
+  --spacing-button-large-x: 32px;
+  --spacing-button-large-y: 14px;
+  --spacing-button-large-gab: 8px;
+  --spacing-button-small-x: 24px;
+  --spacing-button-small-y: 12px;
+  --spacing-button-small-gab: 6px;
+  --spacing-link-gap-x: 8px;
+  --spacing-mobile-0: 0px;
+  --spacing-mobile-1: 4px;
+  --spacing-mobile-2: 8px;
+  --spacing-mobile-3: 12px;
+  --spacing-mobile-4: 16px;
+  --spacing-mobile-5: 20px;
+  --spacing-mobile-6: 24px;
+  --spacing-mobile-7: 32px;
+  --spacing-mobile-8: 48px;
+  --spacing-mobile-9: 80px;
+  --spacing-mobile-base: 4px;
+  --spacing-mobile-auto: auto;
+  --spacing-mobile-section-container-large: 24px;
+  --spacing-tablet-0: 0px;
+  --spacing-tablet-1: 4px;
+  --spacing-tablet-2: 8px;
+  --spacing-tablet-3: 12px;
+  --spacing-tablet-4: 16px;
+  --spacing-tablet-5: 20px;
+  --spacing-tablet-6: 24px;
+  --spacing-tablet-7: 32px;
+  --spacing-tablet-8: 48px;
+  --spacing-tablet-9: 80px;
+  --spacing-tablet-base: 4px;
+  --spacing-tablet-auto: auto;
+  --spacing-desktop-0: 0px;
+  --spacing-desktop-1: 8px;
+  --spacing-desktop-2: 16px;
+  --spacing-desktop-3: 24px;
+  --spacing-desktop-4: 32px;
+  --spacing-desktop-5: 40px;
+  --spacing-desktop-6: 48px;
+  --spacing-desktop-7: 80px;
+  --spacing-desktop-8: 96px;
+  --spacing-desktop-base: 8px;
+  --spacing-desktop-auto: auto;
+  --spacing-desktop-section-container-large: 200px;
+  --spacing-emneside-desktop-header-top: 400px;
+  --spacing-emneside-mobil-header-top: 200px;
+  --spacing-text-section-desktop-large: 400px;
+  --spacing-accordion-gab: 1px;
+  --sizing-container-small: 1200;
+  --sizing-container-medium: 1200;
+  --sizing-container-large: 1440;
+  --card-desktop-gap-y: 32;
+  --card-desktop-spacing-y: 40;
+  --card-desktop-spacing-x: 32;
+  --card-mobile-gap-y: 16;
+  --card-mobile-spacing-y: 20;
+  --card-mobile-spacing-x: 16;
+  --card-shadow: 0px 2px 8px -3px #0000001a;
+  --typography-button-large: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-button-small: (
+      fontWeight: 400,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-button-primary-large: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-button-primary-medium: (
+      fontWeight: 400,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-button-primary-small: (
+      fontWeight: 400,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-button-secondary-large: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-button-secondary-medium: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-button-secondary-small: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-link-large: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-link-small: (
+      fontWeight: 400,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-mobile-title: (
+      fontWeight: 200,
+      fontSize: 48px,
+      lineHeight: 1.2,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.021875rem
+    );
+  --typography-mobile-h1: (
+      fontWeight: 200,
+      fontSize: 36px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.021875rem
+    );
+  --typography-mobile-h2: (
+      fontWeight: 200,
+      fontSize: 32px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-mobile-h3: (
+      fontWeight: 200,
+      fontSize: 28px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-mobile-h4: (
+      fontWeight: 200,
+      fontSize: 20px,
+      lineHeight: 1.2,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-mobile-h5: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-mobile-h6: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-mobile-body: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-mobile-body-bold: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-mobile-app-xxsmall: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-mobile-app-xxsmall-bold: (
+      fontWeight: 400,
+      fontSize: 12px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-tablet-title: (
+      fontWeight: 200,
+      fontSize: 56px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.021875rem
+    );
+  --typography-tablet-h1: (
+      fontWeight: 200,
+      fontSize: 42px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.021875rem
+    );
+  --typography-tablet-h2: (
+      fontWeight: 200,
+      fontSize: 38px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-tablet-h3: (
+      fontWeight: 200,
+      fontSize: 32px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-tablet-h4: (
+      fontWeight: 200,
+      fontSize: 20px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-tablet-h5: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-tablet-h6: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-tablet-body: (
+      fontWeight: 200,
+      fontSize: 17px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-desktop-title: (
+      fontWeight: 200,
+      fontSize: 64px,
+      lineHeight: 1.5,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.021875rem
+    );
+  --typography-desktop-h1: (
+      fontWeight: 200,
+      fontSize: 46px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.021875rem
+    );
+  --typography-desktop-h2: (
+      fontWeight: 200,
+      fontSize: 40px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-desktop-h3: (
+      fontWeight: 200,
+      fontSize: 32px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-desktop-h4: (
+      fontWeight: 200,
+      fontSize: 24px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-desktop-h5: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-desktop-h6: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-desktop-body: (
+      fontWeight: 200,
+      fontSize: 18px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-desktop-body-bold: (
+      fontWeight: 400,
+      fontSize: 18px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-xxlarge: (
+      fontWeight: 200,
+      fontSize: 20px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-xlarge: (
+      fontWeight: 200,
+      fontSize: 19px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-large: (
+      fontWeight: 200,
+      fontSize: 17px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-medium: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-small: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-xsmall: (
+      fontWeight: 200,
+      fontSize: 13px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-xxsmall: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-xxxsmall: (
+      fontWeight: 200,
+      fontSize: 10px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-medium-bold: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-large-bold: (
+      fontWeight: bold,
+      fontSize: 17px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-footer-linklist: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.9000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-toast-mobile-header: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.5,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-toast-mobile-text: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-toast-desktop-text: (
+      fontWeight: 200,
+      fontSize: 18px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-toast-desktop-header: (
+      fontWeight: 400,
+      fontSize: 18px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-toast-tablet-text: (
+      fontWeight: 200,
+      fontSize: 17px,
+      lineHeight: 1.5,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-section-small-title: (
+      fontWeight: 400,
+      fontSize: 17px,
+      lineHeight: 1.2,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-section-small-body: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.5,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-section-large-body: (
+      fontWeight: 200,
+      fontSize: 17px,
+      lineHeight: 1.5,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-section-large-title: (
+      fontWeight: 400,
+      fontSize: 17px,
+      lineHeight: 1.2,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-input-small-label: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-small-fix: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-small-body: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-small-descriptive: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-medium-fix: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-medium-body: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-medium-label: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-medium-descriptive: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-large-fix: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-large-body: (
+      fontWeight: 200,
+      fontSize: 18px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-large-label: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-large-descriptive: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-small-label: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-small-description: (
+      fontWeight: 200,
+      fontSize: 10px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-small-fix: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-small-body: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-small-body-input: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-medium-label: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-medium-description: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-medium-fix: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-medium-body: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-large-label: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-large-description: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-large-fix: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-large-body: (
+      fontWeight: 200,
+      fontSize: 18px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-checkbox-small-body: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-toggle-small-body: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dialog-large-title: (
+      fontWeight: 400,
+      fontSize: 20px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dialog-large-body: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-tag-text: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-tag-text-medium: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-tag-text-large: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-navigation-desktop-global: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-navigation-desktop-dropdown: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.9000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-navigation-desktop-dropdown-active: (
+      fontWeight: bold,
+      fontSize: 14px,
+      lineHeight: 1.9000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --button-align-center: center;
+  --button-align-left: left;
+  --button-align-right: right;
+  --link-align-center: center;
+  --link-align-left: left;
+  --link-align-right: right;
+  --border-radius-button-large: 12px;
+  --border-radius-button-small: 24px;
   --border-radius-sm: 4px;
   --border-radius-md: 6px;
-  --border-radius-button-large: 25px;
+  --border-radius-xl: 24px;
   --border-radius-lg: 8px;
   --border-radius-round: 50%;
   --border-radius-xlg: 16px;
+  --font-family-primary: var(--ff-primary);
+  --font-family-secondary: var(--ff-secondary);
+  --font-size-mobile-title: 48px;
+  --font-size-mobile-h1: 36px;
+  --font-size-mobile-h2: 32px;
+  --font-size-mobile-h3: 28px;
+  --font-size-mobile-h4: 20px;
+  --font-size-mobile-h5: 16px;
+  --font-size-mobile-h6: 14px;
+  --font-size-mobile-body: 16px;
+  --font-size-tablet-title: 56px;
+  --font-size-tablet-h1: 42px;
+  --font-size-tablet-h2: 38px;
+  --font-size-tablet-h3: 32px;
+  --font-size-tablet-h4: 20px;
+  --font-size-tablet-h5: 16px;
+  --font-size-tablet-h6: 14px;
+  --font-size-tablet-body: 17px;
+  --font-size-desktop-title: 64px;
+  --font-size-desktop-h1: 46px;
+  --font-size-desktop-h2: 40px;
+  --font-size-desktop-h3: 32px;
+  --font-size-desktop-h4: 24px;
+  --font-size-desktop-h5: 16px;
+  --font-size-desktop-h6: 14px;
+  --font-size-desktop-body: 18px;
+  --font-size-base-xxxsmall: 10px;
+  --font-size-base-xxsmall: 12px;
+  --font-size-base-xsmall: 13px;
+  --font-size-base-small: 14px;
+  --font-size-base-medium: 16px;
+  --font-size-base-large: 17px;
+  --font-size-base-xlarge: 19px;
+  --font-size-base-xxlarge: 20px;
+  --letter-spacing-xxs: -0.00625rem;
+  --letter-spacing-xs: 0.00625rem;
+  --letter-spacing-sm: 0.0125rem;
+  --letter-spacing-md: 0.015625rem;
+  --letter-spacing-lg: 0.01875rem;
+  --letter-spacing-xl: 0.021875rem;
+  --line-height-0: 0.2;
+  --line-height-1: 1.1;
+  --line-height-2: 1.2;
+  --line-height-3: 1.3;
+  --line-height-4: 1.4000000000000001;
+  --line-height-5: 1.5;
+  --line-height-6: 1.6;
+  --line-height-7: 1.7;
+  --line-height-8: 1.8;
+  --line-height-9: 1.9000000000000001;
+  --font-weight-regular: 200;
+  --font-weight-medium: 400;
+  --font-weight-bold: bold;
+  --size-breakpoint-mobile: 576px;
+  --size-breakpoint-mobile-portrait: 375px;
+  --size-breakpoint-tablet-portait: 768px;
+  --size-breakpoint-tablet: 990px;
+  --size-breakpoint-desktop-small: 1280px;
+  --size-breakpoint-desktop: 1440px;
+  --size-breakpoint-widescreen: 1880px;
+  --size-breakpoint-mobile-portrait-small: 320px;
+  --size-icon-xxs: 8px;
+  --size-icon-xs: 16px;
+  --size-icon-sm: 24px;
+  --size-icon-md: 32px;
+  --size-icon-lg: 40px;
+  --size-icon-xl: 60px;
+  --size-icon-xxl: 80px;
+  --size-icon-xxxl: 128px;
+  --border-sm: 1px;
+  --border-md: 2px;
+  --border-lg: 4px;
   --opacity-button-disabled: 0.5;
   --opacity-input-disabled: 0.5;
   --opacity-checkbox-disabled: 0.5;
   --opacity-toggle-disabled: 0.5;
-  --input-shadow-active-color: #fce8eb;
-  --input-shadow-active-spread: 3px;
-  --input-shadow-active-blur: 0px;
-  --input-shadow-active-y: 0px;
-  --input-shadow-active-x: 0px;
-  --input-shadow-valid-color: #cfe6e1;
-  --input-shadow-valid-spread: 3px;
-  --input-shadow-valid-blur: 0px;
-  --input-shadow-valid-y: 0px;
-  --input-shadow-valid-x: 0px;
-  --input-shadow-blue-hover-color: #cee0f6;
-  --input-shadow-blue-hover-spread: 3px;
-  --input-shadow-blue-hover-blur: 0px;
-  --input-shadow-blue-hover-y: 0px;
-  --input-shadow-blue-hover-x: 0px;
-  --dropdown-shadow-active-blue-color: #b9d3e9;
-  --dropdown-shadow-active-blue-spread: 1;
-  --dropdown-shadow-active-blue-blur: 0;
-  --dropdown-shadow-active-blue-y: 0;
-  --dropdown-shadow-active-blue-x: 0;
-  --checkbox-shadow-red-hover-color: #fce8eb;
-  --checkbox-shadow-red-hover-spread: 1;
-  --checkbox-shadow-red-hover-blur: 0;
-  --checkbox-shadow-red-hover-y: 0;
-  --checkbox-shadow-red-hover-x: 0;
-  --checkbox-shadow-red-focused-color: #fce8eb;
-  --checkbox-shadow-red-focused-spread: 1;
-  --checkbox-shadow-red-focused-blur: 0;
-  --checkbox-shadow-red-focused-y: 0;
-  --checkbox-shadow-red-focused-x: 0;
-  --toggle-shadow-red-hover-color: #fce8eb;
-  --toggle-shadow-red-hover-spread: 1;
-  --toggle-shadow-red-hover-blur: 0;
-  --toggle-shadow-red-hover-y: 0;
-  --toggle-shadow-red-hover-x: 0;
-  --toggle-shadow-blue-hover-color: #cee0f6;
-  --toggle-shadow-blue-hover-spread: 1;
-  --toggle-shadow-blue-hover-blur: 0;
-  --toggle-shadow-blue-hover-y: 0;
-  --toggle-shadow-blue-hover-x: 0;
-  --toggle-icon-shadow-color: rgba(58, 14, 14, 0.24);
-  --toggle-icon-shadow-spread: 0;
-  --toggle-icon-shadow-blur: 2;
-  --toggle-icon-shadow-y: 0;
-  --toggle-icon-shadow-x: -0.5;
-  --dialog-shadow-color: rgba(0, 0, 0, 0.1);
-  --dialog-shadow-spread: -3;
-  --dialog-shadow-blur: 15;
-  --dialog-shadow-y: 10;
-  --dialog-shadow-x: 0;
-  --card-shadow-color: rgba(0, 0, 0, 0.1);
-  --card-shadow-spread: -3;
-  --card-shadow-blur: 8;
-  --card-shadow-y: 2;
-  --card-shadow-x: 0;
+  --opacity-base-box-background: 0.5;
+  --input-shadow-active: 0px 0px 0px 3px #FCEDE8;
+  --input-shadow-valid: 0px 0px 0px 3px #CFE6E1;
+  --input-shadow-blue-hover: 0px 0px 0px 3px #CEE0F6;
+  --dropdown-shadow-active-blue: 0px 0px 0px 1px #b9d3e9;
+  --checkbox-shadow-red-hover: 0px 0px 0px 1px #FCEDE8;
+  --checkbox-shadow-red-focused: 0px 0px 0px 1px #FCEDE8;
+  --toggle-shadow-red-hover: 0px 0px 0px 1px #FCEDE8;
+  --toggle-shadow-blue-hover: 0px 0px 0px 1px #CEE0F6;
+  --toggle-icon-shadow: -0.5px 0px 2px 0px #3a0e0e3d;
+  --dialog-shadow: 0px 10px 15px -3px #0000001a;
+  --basic-shadow: 0px 3px 10px 0px #0000001a;
 }
