@@ -8,8 +8,10 @@
     "test": "node ./scripts/transform-design-tokens.js && npm run clean && style-dictionary build"
   },
   "dependencies": {
-    "style-dictionary": "^3.0.3",
     "node-fetch": "^3.2.0",
     "token-transformer": "^0.0.17"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.7.0"
   }
 }
